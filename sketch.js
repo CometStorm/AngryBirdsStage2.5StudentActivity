@@ -41,9 +41,9 @@ function setup(){
 function draw(){
     background(backgroundImg);
     Engine.update(engine);
-    console.log(box2.body.position.x);
-    console.log(box2.body.position.y);
-    console.log(box2.body.angle);
+    //console.log(box2.body.position.x);
+    //console.log(box2.bodyposition.y);
+    //console.log(box2.bodyangle);
     box1.display();
     box2.display();
     ground.display();
@@ -58,7 +58,6 @@ function draw(){
     box5.display();
     log4.display();
     log5.display();
-
     bird.display();
     platform.display();
 }
